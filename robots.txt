@@ -1,0 +1,9 @@
+# Teaching example. Effective robots.txt must be at https://HOST/robots.txt
+# A GitHub Pages project URL /YOUR-REPO/robots.txt is NOT a host-level robots file.
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://github.com/Greg-Smith-jpg/Generative_Engine_Optimisation_Demo/sitemap.xml
